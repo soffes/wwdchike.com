@@ -13,6 +13,23 @@ h1 {
   }
 }
 
+p.rsvp {
+  text-align: center;
+  padding: 1em 0;
+}
+
+a.button {
+  border-radius: 4px;
+  background-color: #76b7e4;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: $bold-weight;
+
+  &:hover {
+    text-decoration: none;
+    background-color: $link-color;
+  }
+}
 
 body > main, body > footer {
   max-width: $width;
