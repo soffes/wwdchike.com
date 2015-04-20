@@ -1,0 +1,36 @@
+div#map {
+  width: 100%;
+  height: 300px;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+
+  a {
+    color: #76b7e4
+  }
+}
+
+
+body > main, body > footer {
+  max-width: $width;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+body > footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: $light-text-color;
+
+  a {
+    color: $light-text-color;
+
+    &:hover {
+      color: $link-color;
+    }
+  }
+}

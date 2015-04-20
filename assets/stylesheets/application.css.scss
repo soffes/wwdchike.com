@@ -1,0 +1,62 @@
+@import "bourbon";
+@import "globals/*";
+@import "components/reset";
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Whitney A', 'Whitney B', sans-serif;
+  font-weight: $normal-weight;
+  font-style: normal;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.4em;
+}
+
+p, ul {
+  margin-bottom: 1.4em;
+}
+
+strong {
+  font-weight: $bold-weight;
+}
+
+span.asterisk {
+  color: $light-text-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+mark {
+  background-color: $highligh-color;
+  padding: 2px;
+  box-shadow: $highligh-color 0 0 5px;
+}
+
+code {
+  font-family: Courier, monospace;
+}
+
+ul.list {
+  padding-left: 1.4em;
+
+  li {
+    list-style: disc;
+  }
+}
+
+h3 {
+  font-weight: $bold-weight;
+  font-size: 1.1em;
+}
+
+@import "sections/*";
